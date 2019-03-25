@@ -1,0 +1,13 @@
+First, we have to figure out the size of a pokeball.
+Assuming a pokeball is a sphere, we only have to know the radius of it.
+
+Note: The formula for a sphere is pir^2
+
+Then, we need to figure out the total volume of the Coit Tower.
+According to google (wiki), the height of Coit Tower is 210 foot, the area of it is 74,050 ft^2
+Therefore, we can have a rough estimate of Coit Tower having a volume of 210 * 74050 = 15,550,500 ft^3
+After further research, https://bulbapedia.bulbagarden.net/wiki/Pokeball mentioned about poke ball having the size roughly of a baseball.
+
+Baseball has a volume of 12.32 cubic inches, which is ~0.007 cubic foot.
+
+Therefore, a rough estimate of how many pokeballs are in the tower is 22215000000.
