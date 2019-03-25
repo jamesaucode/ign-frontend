@@ -1,5 +1,4 @@
 import re
-import PyPDF2
 from tabula import read_pdf
 
 """ My thought process of solving this problem.
@@ -21,7 +20,8 @@ from tabula import read_pdf
     We repeat this until we have the least amount of crowns possible left.
 """
 def compare_cost(e):
-    return e[3]
+    """ Sorting function specifically to compare the cost of armor """
+    return float(e[3])
 
 def main():
     # Read pdf and parse the information
@@ -68,6 +68,8 @@ def main():
         if next_lowest > crowns:
             # Could not buy anymore
             break
+        # Check which piece we got, get the name of it, update
+        # our armorset
         if h == next_lowest:
             armorset['Helmet'] = helmets[index][2]
         elif c == next_lowest:
