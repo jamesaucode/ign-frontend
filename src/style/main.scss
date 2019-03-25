@@ -1,0 +1,49 @@
+@import 'post';
+@import 'settings';
+@import 'btn';
+.wrapper {
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+h1,h2,h3,p,ul {
+    padding:0;
+    margin: 0;
+}
+ul {
+  list-style: none;
+}
+button {
+  padding: 0;
+  border: none;
+}
+
+.wrapper--content {
+  display: flex;
+  width: 100%;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  max-width: 300px;
+}
+.posts {
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: 800;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: $small-gutter;
+  margin-bottom: $small-gutter;
+}
+@media only screen and (max-width: 850px) {
+    .wrapper--content {
+        flex-direction: column;
+    }
+    .options {
+        width: 100%;
+        max-width: 100%;
+    }
+}

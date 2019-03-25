@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^4.11.0",
     "react": "^16.8.5",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.8.5",
     "react-scripts": "2.1.8"
   },
+  "proxy": "http://ign-apis.herokuapp.com/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -21,5 +24,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "sinon": "^7.3.0"
+  }
 }

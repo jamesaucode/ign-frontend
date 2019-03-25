@@ -1,0 +1,24 @@
+@import 'settings';
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background: white;
+  border-radius: 5px;
+  color: $black--50;
+  font-weight: 600;
+  font-size: 18px;
+  &:hover {
+      cursor: pointer;
+      background: lightgrey;
+  }
+}
+.active {
+    background: $ign-red;
+    &:hover {
+        background:$ign-red;
+    }
+    &-text {
+        color: white;
+    }
+}
